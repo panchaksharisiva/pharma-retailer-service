@@ -1,0 +1,32 @@
+spring:
+  messages:
+   mandatory:
+     field:
+       message: This field is required
+  application:
+    name: phrama-retailer-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/smartpharmadb?searchpath=rms_schema
+    username: postgres
+    password: panchakshari
+  jpa:
+    open-in-view: false 
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8087
+  servlet:
+    context-path: /pharma/retailer
+springdoc:
+  api-docs:
+    path: /pharma/retailer/swagger-ui.html
+
+
+
+#mandatoryField:
+#  message: This field cannot be empty you must enter
+    

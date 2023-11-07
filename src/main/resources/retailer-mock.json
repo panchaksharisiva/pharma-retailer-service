@@ -1,0 +1,41 @@
+{
+  "retailerGuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "retailerCode": 123456,
+  "retailerCompany": "TATA 1mg",
+  "registrationCode": "string",  
+  "tanNumber": "12345678",       
+  "status": "Active",
+  "ownerName": "Ratan Tata",
+  "createdDate": "2023-09-29T18:53:11.000Z",
+  "updatedDate": "2023-09-30T10:00:00.000Z",  
+  "storeDtos": [
+    {
+      "storeId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "name": "TATA 1mg Store",
+      "storeCode": 100123,
+      "area": "string",  
+      "gstnNumber": "987654321",  
+      "storeTypeDto": {
+        "storeTypeId": 10,         
+        "description": "Individual Pharmacy"
+      },
+      "retailerGuid": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "addressDto": {
+        "addressId": 1,           
+        "line1": "123 Main Street",
+        "line2": "Apt 101",
+        "line3": "Building XYZ",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "postalCode": "400001"
+      },
+      "contactDtos": [
+        {
+          "contactId": 1,  
+          "type": "Phone", 
+          "value": "1234567890"  
+        }
+      ]
+    }
+  ]
+}
